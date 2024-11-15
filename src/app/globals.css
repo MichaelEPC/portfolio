@@ -35,3 +35,20 @@ body {
     font-style: normal;
   }
 }
+
+.spacer {
+  aspect-ratio: 440/40;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.firstLayer {
+  background-image: url("./public/layered-waves-INTROSECTIONUP.svg");
+}
+
+.secondLayer {
+  background-image: url("./public/layered-waves-INTROSECTIONDOWN.svg");
+}

@@ -4,7 +4,7 @@ import EmojiFace from "../../public/emojiFace.png";
 
 const IntroductionSection = () => {
   return (
-    <section className={`${style.container}`}>
+    <section className={`${style.container} relative`}>
       <div className="h-[750px] w-full flex flex-col items-center justify-center">
         <div>
           <div className="h-auto w-full flex justify-center mb-4">
@@ -27,7 +27,7 @@ const IntroductionSection = () => {
         </button>
       </div>
 
-      <div className="h-auto w-full flex justify-center mt-10">
+      <div className="h-auto w-full flex justify-center ">
         <div className="border-2 border-white bg-principal-color p-2 rounded-full shadow-md cursor-pointer">
           <svg
             className="fill-white"
@@ -40,6 +40,8 @@ const IntroductionSection = () => {
           </svg>
         </div>
       </div>
+
+      <div className={`spacer firstLayer absolute bottom-0`}></div>
     </section>
   );
 };
