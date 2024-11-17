@@ -4,7 +4,6 @@ import ProjectCards from "./_Components/ProjectCards";
 import weatherClimateProjectPht from "../../public/weatherAppScreenshot.png";
 import ecomerceProjectPht from "../../public/EcommerceScreen.png";
 
-const img = adminProjectPht;
 const projects = [
   {
     id: 1,

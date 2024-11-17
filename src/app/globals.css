@@ -52,3 +52,7 @@ body {
 .secondLayer {
   background-image: url("./public/layered-waves-INTROSECTIONDOWN.svg");
 }
+
+.thirdLayer {
+  background-image: url("./public/LayeredWavesAboutMe.svg");
+}
