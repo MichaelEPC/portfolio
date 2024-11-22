@@ -1,9 +1,19 @@
 .container {
-  height: 100vh;
+  height: calc(100vh - 100px);
   width: 100%;
 }
 
-.projectCard {
-  height: 480px;
-  width: 440px;
+.diagonal {
+  --skew-angle: 10deg;
+  position: relative;
+  isolation: isolate;
+}
+
+.diagonal::after {
+  content: "";
+  background: #5eb6f4;
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
 }

@@ -12,6 +12,7 @@ module.exports = {
         "third-color": "#fffffd",
         "ligh-gray": "#DDDDDD",
         "text-color": "#707070",
+        "tailwind-color": "#38BDF8",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

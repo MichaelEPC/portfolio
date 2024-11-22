@@ -1,8 +1,12 @@
 .projectCard {
-  height: auto;
-  width: 400px;
+  min-height: auto;
+  width: 420px;
 }
 
 .descriptionContainer {
-  height: 220px;
+  min-height: 240px;
+}
+
+.tagsContainer {
+  max-height: 200px;
 }
