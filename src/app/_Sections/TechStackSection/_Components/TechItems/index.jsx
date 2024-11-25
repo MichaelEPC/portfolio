@@ -6,7 +6,7 @@ const TechItems = ({ name, img }) => {
       <div className="flex flex-col items-center border-2 rounded-lg border-slate-500">
         <Image className="h-16 w-16 p-1" src={img} alt={img} />
       </div>
-      <p className="font-semibold">{name}</p>
+      <p className="font-semibold text-text-color">{name}</p>
     </div>
   );
 };

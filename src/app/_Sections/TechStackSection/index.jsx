@@ -70,7 +70,7 @@ const TechStackSection = () => {
       <h3 className={`${style.titleAnimation} font-bold text-6xl`}>
         Technologies stack
       </h3>
-      <div className={`grid grid-cols-5 gap-4 mt-4 ${style.titleAnimation}`}>
+      <div className={`grid grid-cols-5 gap-4 mt-10 ${style.titleAnimation}`}>
         {listTechItems.map((item) => {
           return <TechItems key={item.id} name={item.name} img={item.img} />;
         })}

@@ -33,7 +33,10 @@ const projects = [
 
 const ProjectSection = () => {
   return (
-    <section className={`${style.container}  relative flex justify-center`}>
+    <section
+      id="projectSection"
+      className={`${style.container} relative flex justify-center`}
+    >
       <div className={`flex flex-col items-center h-auto w-full`}>
         <h1 className="font-semibold text-7xl">Projects</h1>
         <div

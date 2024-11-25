@@ -7,14 +7,14 @@ const ProjectCards = ({ name, img, description, tags }) => {
     <article className={`${style.projectCard} shadow-xl rounded-2xl bg-white`}>
       <Image src={img} alt="adminProjectPht" quality={80} />
       <div className={`mt-2 ml-2 h-auto px-1 ${style.descriptionContainer}`}>
-        <h3 className="mb-4 font-bold text-xl text-gray-900">{name}</h3>
+        <h3 className="mb-4 font-bold text-xl text-text-color">{name}</h3>
         <div className="h-auto w-full">
           <p className="text-base text-text-color">{description}</p>
         </div>
       </div>
 
       <div
-        className={`${style.tagsContainer} mt-5 border-t-2 grid grid-cols-3 items-center justify-center border-slate-500 p-3`}
+        className={`${style.tagsContainer} mt-5 border-t-2 grid grid-cols-3 items-center justify-center border-ligh-gray p-3`}
       >
         {tags.map((tag) => {
           switch (tag) {
@@ -22,7 +22,7 @@ const ProjectCards = ({ name, img, description, tags }) => {
               return (
                 <div
                   key={tag}
-                  className="p-1 justify-center bg-white rounded-3xl flex border-2 border-slate-500 h-auto w-28 "
+                  className="p-1 justify-center shadow-md bg-white rounded-3xl flex border-2 border- h-auto w-28 "
                 >
                   <svg
                     className="fill-tailwind-color"
@@ -45,7 +45,7 @@ const ProjectCards = ({ name, img, description, tags }) => {
               return (
                 <div
                   key={tag}
-                  className="bg-white justify-center rounded-3xl p-1 flex border-2 items-center border-slate-500 h-auto w-28 "
+                  className="bg-white shadow-md justify-center rounded-3xl p-1 flex border-2 items-center border-ligh-gray h-auto w-28 "
                 >
                   <Image
                     src={nextJSLogo}
@@ -60,7 +60,7 @@ const ProjectCards = ({ name, img, description, tags }) => {
               return (
                 <div
                   key={tag}
-                  className="p-1 bg-white rounded-3xl flex border-2 items-center border-slate-500 h-auto w-36 "
+                  className="p-1 bg-white shadow-md rounded-3xl flex border-2 items-center border-ligh-gray h-auto w-36 "
                 >
                   <svg
                     className="ml-1 mr-1 fill-tailwind-color"

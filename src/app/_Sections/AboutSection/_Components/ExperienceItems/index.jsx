@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const ExperienceItems = ({ name, tagName, time, description, img }) => {
   return (
-    <li class="mb-10 ms-6 flex">
-      <span class="absolute flex items-center justify-center w-6 h-6 bg-white border-2 border-principal-color rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+    <li className="mb-10 ms-6 flex">
+      <span className="absolute flex items-center justify-center w-6 h-6 bg-white border-2 border-principal-color rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
         <svg
-          class="w-2.5 h-2.5 text-principal-color dark:text-blue-300"
+          className="w-2.5 h-2.5 text-principal-color dark:text-blue-300"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -16,16 +16,16 @@ const ExperienceItems = ({ name, tagName, time, description, img }) => {
       </span>
       <div className="flex h-auto w-full items-center liAnimated">
         <div className="border-r-2 border-gray-200 pr-2">
-          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
             {name}
-            <span class="bg-white text-principal-color text-sm border-2 border-slate-500 font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+            <span className="bg-white text-principal-color text-sm border-2 border-slate-500 font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
               {tagName}
             </span>
           </h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             {time}
           </time>
-          <p class="mb-4 text-base font-normal h-auto w-[800px] text-gray-500 dark:text-gray-400">
+          <p className="mb-4 text-base font-normal h-auto w-[800px] text-text-color dark:text-gray-400">
             {description}
           </p>
         </div>

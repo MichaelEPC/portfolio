@@ -5,17 +5,18 @@ import style from "./style.module.css";
 const ContactMeSection = () => {
   return (
     <section
-      className={`${style.mainContainer} border-t-4  border-principal-color flex flex-col items-center`}
+      id="contactSection"
+      className={`${style.mainContainer} ring-2 ring-slate-500 flex flex-col items-center`}
     >
-      <h2 className="font-semibold text-6xl mt-4">Contact</h2>
+      <h2 className="font-bold text-5xl mt-4">Contact</h2>
       <div className="h-full w-full flex justify-center flex-col items-center">
-        <h3 className="font-semibold text-3xl text-slate-600">
+        <h3 className="font-semibold text-3xl text-text-color">
           ¿Want to work with me?{" "}
           <span className="text-principal-color">¡contact me!</span>
         </h3>
         <div className="flex items-center justify-between h-auto w-96">
           <Link
-            href={"https://mail.google.com/mail/u/0/?pli=1#inbox"}
+            href={"https://www.linkedin.com/in/michael-posada-36a57b316/"}
             target="_blank"
             rel="noopener noreferrer"
           >
