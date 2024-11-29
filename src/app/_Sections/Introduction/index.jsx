@@ -17,13 +17,13 @@ const IntroductionSection = () => {
             <span className="text-text-color">Here!</span>
           </h1>
           <h1 className="font-semibold text-text-color text-4xl mt-2 ">
-            Full Stack <span className="text-text-color">Developer</span>
+            Frotend <span className="text-text-color">Developer</span>
           </h1>
           <div className="border-t-2 border-principal-color mt-2">
             <p className="h-auto w-[700px] text-lg text-text-color mt-1">
-              I'm a junior passionate about creating dynamic and engaging
+              {`I'm a junior passionate about creating dynamic and engaging
               software web. I have a solid background in frameworks and
-              technologies such as JavaScript, React and NextJS.
+              technologies such as JavaScript, React and NextJS.`}
             </p>
           </div>
           <div className="h-auto w-full flex items-center mt-1">
