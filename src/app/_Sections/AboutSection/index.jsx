@@ -48,11 +48,13 @@ const experienceListItems = [
 const AboutMeSection = () => {
   return (
     <section
-      className={`${style.mainContainer} ${style.titleAnimation} mb-4 flex flex-col items-center px-[100px]`}
+      className={`${style.mainContainer} ${style.titleAnimation} mb-4 flex flex-col items-center`}
     >
-      <h2 className="font-semibold text-6xl mt-4">Experience and Education</h2>
+      <h2 className="font-semibold text text-5xl mb:text-6xl text-center mt-4">
+        Experience and Education
+      </h2>
 
-      <ol className="relative border-l mt-10 border-slate-500 dark:border-gray-700">
+      <ol className="relative  mt-10 border-0 mb:border-l border-slate-500">
         {experienceListItems.map((item) => {
           return (
             <ExperienceItems

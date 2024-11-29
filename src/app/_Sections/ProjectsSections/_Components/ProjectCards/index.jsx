@@ -59,14 +59,19 @@ const ProjectCards = ({
             <div
               key={tags.id}
               className={`${style.tagsContainer} 
-              ${tags.length === 2 ? "px-20" : ""}
-              mt-2 ${`grid grid-cols-${tags.length}`} items-center justify-center border-ligh-gray`}
+              mt-2 grid ${
+                tags.length === 1
+                  ? "grid-cols-1"
+                  : tags.length == 2
+                  ? "grid-cols-2 mb:px-20"
+                  : "grid-cols-3"
+              } items-center justify-center border-ligh-gray`}
             >
               {tags.map((tagItem) => {
                 switch (tagItem) {
                   case "React":
                     return (
-                      <div className="h-full w-full flex justify-center">
+                      <div className="h-full mb:w-full flex justify-center">
                         <div
                           key={tagItem}
                           className="justify-center items-center shadow-md bg-white rounded-3xl flex border-2 border- h-auto w-28 "

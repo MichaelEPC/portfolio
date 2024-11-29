@@ -1,7 +1,6 @@
 "use client";
 
 import { handleScroll } from "./handleScroll";
-import style from "./style.module.css";
 
 const NavBar = () => {
   return (
@@ -9,11 +8,11 @@ const NavBar = () => {
       className={`h-16 w-full border-b-2 border-principal-color bg-white sticky flex justify-between items-center`}
     >
       <ul className=" cursor-default flex items-center h-full w-auto ml-2">
-        <li className="funnel-sans-text font-bold text-white text-xl w-52">
+        <li className="funnel-sans-text font-bold text-white text-xl w-52 hidden hypermb:block">
           <p className="font-semibold text-text-color">{`<Michael Posada/>`}</p>
         </li>
       </ul>
-      <ul className="flex items-center h-full">
+      <ul className="flex items-center h-full w-full justify-between hypermb:w-auto hypermb:justify-center">
         <a
           href=""
           onClick={(e) => {

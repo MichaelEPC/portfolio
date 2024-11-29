@@ -1,5 +1,5 @@
 .container {
-  min-height: calc(100vh);
+  min-height: calc(100vh - 80px);
   width: 100%;
   margin-bottom: 14px;
 }
@@ -8,6 +8,7 @@
   --skew-angle: 10deg;
   position: absolute;
   isolation: isolate;
+  top: 145px;
 }
 
 .diagonal::after {

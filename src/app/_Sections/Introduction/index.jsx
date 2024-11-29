@@ -8,11 +8,9 @@ import profilePht from "../../public/Profilepht.png";
 const IntroductionSection = () => {
   return (
     <section className={`${style.container} relative`}>
-      <div className="h-[750px] w-full flex items-center justify-center">
-        <div className={`${style.titleIntro}`}>
-          <h1
-            className={`${style.titleIntro} font-semibold text-5xl mt-10 text-principal-color`}
-          >
+      <div className="h-[750px] w-full flex items-center justify-center z-50 flex-col-reverse lg:flex-row">
+        <div className={`${style.titleIntro} px-2`}>
+          <h1 className={`font-semibold text-5xl mt-10 text-principal-color`}>
             <span className="text-text-color">¡</span>Michael Posada{" "}
             <span className="text-text-color">Here!</span>
           </h1>
@@ -20,7 +18,7 @@ const IntroductionSection = () => {
             Frotend <span className="text-text-color">Developer</span>
           </h1>
           <div className="border-t-2 border-principal-color mt-2">
-            <p className="h-auto w-[700px] text-lg text-text-color mt-1">
+            <p className="h-auto w-auto presm:w-[400px] premd:w-[700px] text-lg text-text-color mt-1">
               {`I'm a junior passionate about creating dynamic and engaging
               software web. I have a solid background in frameworks and
               technologies such as JavaScript, React and NextJS.`}
@@ -67,7 +65,7 @@ const IntroductionSection = () => {
             <EmailButton />
           </div>
         </div>
-        <div className="rounded-full bg-gray-200 border-principal-color border-2 p-5">
+        <div className="rounded-full bg-gray-200 mt-32 presm:mt-14 lg:mt-0 border-principal-color border-2 p-5 presm:top-4">
           <Image src={profilePht} alt="profilePht" className="h-auto w-44" />
         </div>
       </div>

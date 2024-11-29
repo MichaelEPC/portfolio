@@ -10,7 +10,7 @@ const GoDownButton = () => {
       }}
       className="h-auto w-full flex justify-center "
     >
-      <div className="border-2 border-white bg-principal-color p-2 rounded-full shadow-md cursor-pointer">
+      <div className="border-2 border-white bg-principal-color p-2 rounded-full shadow-md cursor-pointer mt-20 presm:mt-0">
         <svg
           className="fill-white"
           xmlns="http://www.w3.org/2000/svg"

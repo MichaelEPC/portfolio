@@ -8,9 +8,11 @@ const ContactMeSection = () => {
       id="contactSection"
       className={`${style.mainContainer} ring-2 ring-slate-500 flex flex-col items-center`}
     >
-      <h2 className="font-bold text-5xl mt-4">Contact</h2>
+      <h2 className="font-bold text-5xl md:text-6xl mt-4 text-center">
+        Contact
+      </h2>
       <div className="h-full w-full flex justify-center flex-col items-center">
-        <h3 className="font-semibold text-3xl text-text-color">
+        <h3 className="font-semibold text-2xl md:text-3xl text-text-color text-center">
           ¿Want to work with me?{" "}
           <span className="text-principal-color">¡contact me!</span>
         </h3>
