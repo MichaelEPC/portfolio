@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const ExperienceItems = ({ name, tagName, time, description, img }) => {
   return (
-    <li className=" mb:mb-10 pl-2 mb:pl-0 mb:ms-6 flex">
-      <span className="absolute items-center hidden mb:flex justify-center w-6 h-6 bg-white border-2 border-principal-color rounded-full -start-3 ring-8 ring-white">
+    <li className="flex pl-2 mb:mb-10 mb:ms-6 mb:pl-0">
+      <span className="absolute -start-3 hidden h-6 w-6 items-center justify-center rounded-full border-2 border-principal-color bg-white ring-8 ring-white mb:flex">
         <svg
-          className="w-2.5 h-2.5 text-principal-color dark:text-blue-300"
+          className="h-2.5 w-2.5 text-principal-color"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -14,23 +14,23 @@ const ExperienceItems = ({ name, tagName, time, description, img }) => {
           <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
         </svg>
       </span>
-      <div className="flex h-auto w-full items-center liAnimated flex-col-reverse mt-1 mb-1 xl:flex-row xl:mt-0 xl:mb-0">
-        <div className="border-0 2xl:border-r-2 border-gray-200 pr-2">
-          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
+      <div className="liAnimated mb-1 mt-1 flex h-auto w-full flex-col-reverse items-center xl:mb-0 xl:mt-0 xl:flex-row">
+        <div className="2xl:border-r-2 border-0 border-gray-200 pr-2">
+          <h3 className="mb-1 flex items-center text-lg font-semibold text-gray-900">
             {name}
-            <span className="bg-white text-principal-color text-sm border-2 border-slate-500 font-medium me-2 px-2.5 py-0.5 rounded ms-3">
+            <span className="me-2 ms-3 rounded border-2 border-slate-500 bg-white px-2.5 py-0.5 text-sm font-medium text-principal-color">
               {tagName}
             </span>
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+          <time className="mb-2 block text-sm font-normal leading-none text-gray-400">
             {time}
           </time>
-          <p className="mb-4 text-base font-normal h-auto w-[300px] hypermb:w-[400px] smde:w-[400px] premd:w-[600px] md:w-[800px] text-text-color dark:text-gray-400">
+          <p className="hypermb:w-[400px] smde:w-[400px] premd:w-[600px] mb-4 h-auto w-[300px] text-base font-normal text-text-color md:w-[800px] dark:text-gray-400">
             {description}
           </p>
         </div>
-        <div className="flex items-center justify-center rounded-full shadow-lg ml-4 border-2 border-ligh-gray p-1 mb-5 2xl:mb-0">
-          <Image src={img} alt={img} className="rounded-full h-auto w-44" />
+        <div className="2xl:mb-0 mb-5 ml-4 flex items-center justify-center rounded-full border-2 border-ligh-gray p-1 shadow-lg">
+          <Image src={img} alt={img} className="h-auto w-44 rounded-full" />
         </div>
       </div>
     </li>
