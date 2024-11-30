@@ -5,14 +5,14 @@ import { handleScroll } from "./handleScroll";
 const NavBar = () => {
   return (
     <div
-      className={`h-16 w-full border-b-2 border-principal-color bg-white sticky flex justify-between items-center`}
+      className={`sticky flex h-16 w-full items-center justify-between border-b-2 border-principal-color bg-white`}
     >
-      <ul className=" cursor-default flex items-center h-full w-auto ml-2">
-        <li className="funnel-sans-text font-bold text-white text-xl w-52 hidden hypermb:block">
+      <ul className="ml-2 flex h-full w-auto cursor-default items-center">
+        <li className="funnel-sans-text hidden w-52 text-xl font-bold text-white hypermb:block">
           <p className="font-semibold text-text-color">{`<Michael Posada/>`}</p>
         </li>
       </ul>
-      <ul className="flex items-center h-full w-full justify-between hypermb:w-auto hypermb:justify-center">
+      <ul className="flex h-full w-full items-center justify-between hypermb:w-auto hypermb:justify-center">
         <a
           href=""
           onClick={(e) => {
@@ -20,12 +20,12 @@ const NavBar = () => {
             handleScroll();
           }}
         >
-          <li className="font-semibold text-xl h-full text-text-color w-24 justify-center flex items-center hover:bg-third-color hover:border-x-2 hover:border-ligh-gray transition-all duration-200 hover:text-principal-color hover:cursor-pointer">
+          <li className="flex h-full w-24 items-center justify-center text-xl font-semibold text-text-color transition-all duration-200 hover:cursor-pointer hover:border-x-2 hover:border-ligh-gray hover:bg-third-color hover:text-principal-color">
             Projects
           </li>
         </a>
         <a href="#contactSection">
-          <li className="mr-1 font-semibold text-xl h-full text-text-color w-24 justify-center flex items-center hover:bg-third-color hover:border-x-2 hover:border-ligh-gray transition-all duration-200 hover:text-principal-color hover:cursor-pointer">
+          <li className="mr-1 flex h-full w-24 items-center justify-center text-xl font-semibold text-text-color transition-all duration-200 hover:cursor-pointer hover:border-x-2 hover:border-ligh-gray hover:bg-third-color hover:text-principal-color">
             Contact
           </li>
         </a>
