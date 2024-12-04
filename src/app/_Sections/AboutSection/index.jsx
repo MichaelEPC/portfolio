@@ -19,7 +19,7 @@ const experienceListItems = [
   },
   {
     id: 2,
-    name: "Full Stack Developer career",
+    name: "Frotend Developer career",
     tagName: "Studies",
     time: "23 Jan 2023 - 24 Jan 2024",
     description: `I started my Full Stack journey by mastering JavaScript to +create dynamic features, then advanced to React to build reusable components and manage state. Finally, I transitioned to Next.js, leveraging its server-side rendering and routing capabilities to create fast, scalable applications. `,
@@ -50,11 +50,11 @@ const AboutMeSection = () => {
     <section
       className={`${style.mainContainer} ${style.titleAnimation} mb-4 flex flex-col items-center`}
     >
-      <h2 className="font-semibold text text-5xl mb:text-6xl text-center mt-4">
+      <h2 className="text mt-4 text-center text-5xl font-semibold mb:text-6xl">
         Experience and Education
       </h2>
 
-      <ol className="relative  mt-10 border-0 mb:border-l border-slate-500">
+      <ol className="relative mt-10 border-0 border-slate-500 mb:border-l">
         {experienceListItems.map((item) => {
           return (
             <ExperienceItems

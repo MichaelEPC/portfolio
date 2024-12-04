@@ -8,7 +8,7 @@ import DownloadCV from "../../_Components/Dialog";
 
 const IntroductionSection = () => {
   return (
-    <section className={`${style.container} relative`}>
+    <section className={`${style.container} relative mb-10`}>
       <div className="z-50 flex h-[750px] w-full flex-col-reverse items-center justify-center lg:flex-row">
         <div className={`${style.titleIntro} px-2`}>
           <h1 className={`mt-10 text-5xl font-semibold text-principal-color`}>
@@ -19,14 +19,14 @@ const IntroductionSection = () => {
             Frotend <span className="text-text-color">Developer</span>
           </h1>
           <div className="mt-2 border-t-2 border-principal-color">
-            <p className="presm:w-[400px] premd:w-[700px] mt-1 h-auto w-auto text-lg text-text-color">
+            <p className="mt-1 h-auto w-auto text-lg text-text-color presm:w-[400px] premd:w-[700px]">
               {`I'm a junior passionate about creating dynamic and engaging
               software web. I have a solid background in frameworks and
               technologies such as JavaScript, React and NextJS.`}
             </p>
           </div>
-          <div className="mt-1 flex h-auto w-full items-center">
-            <div className="flex items-center">
+          <div className="mt-1 flex h-auto w-full flex-col items-center mb:flex-row">
+            <div className="mb-4 flex items-center mb:mb-0">
               <Link
                 href={"https://www.linkedin.com/in/michael-posada-36a57b316/"}
                 target="_blank"
@@ -69,7 +69,7 @@ const IntroductionSection = () => {
             <DownloadCV />
           </div>
         </div>
-        <div className="presm:mt-14 presm:top-4 mt-32 rounded-full border-2 border-principal-color bg-gray-200 p-5 lg:mt-0">
+        <div className="mt-32 rounded-full border-2 border-principal-color bg-gray-200 p-5 presm:top-4 presm:mt-14 lg:mt-0">
           <Image src={profilePht} alt="profilePht" className="h-auto w-44" />
         </div>
       </div>

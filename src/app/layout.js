@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Michael Posada |git  Portfolio",
+  title: "Michael Posada | Portfolio",
   description:
     "Soy Michael Posada, un desarrollador frontend especializado en React y Next.js. Descubre mis proyectos, habilidades y experiencia en el desarrollo de aplicaciones web modernas y dinámicas.",
   icons: {

@@ -1,5 +1,5 @@
 .container {
-  height: calc(100vh - 4px);
+  min-height: calc(100vh + auto);
   width: 100%;
 }
 

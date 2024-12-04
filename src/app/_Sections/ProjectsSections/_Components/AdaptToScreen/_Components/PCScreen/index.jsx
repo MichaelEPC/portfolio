@@ -32,14 +32,14 @@ const projects = [
     orders, tracking purchases, and enjoying a personalized shopping experience.`,
     tags: [["React", "JavaScript"], ["Tailwind"]],
     github: "https://github.com/MichaelEPC/ecommerce",
-    deploy: "https://ecommerce-tech-phi.vercel.app/",
+    deploy: "https://ecommerce-two-gamma-62.vercel.app/",
   },
 ];
 
 const PCScreen = () => {
   return (
     <div
-      className={`h-auto w-full grid gap-16 grid-cols-3 justify-center mt-14 md:px-56 `}
+      className={`mt-14 grid h-auto w-full grid-cols-3 justify-center gap-16 md:px-56`}
     >
       {projects.map((project) => {
         return (

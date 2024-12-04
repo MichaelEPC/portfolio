@@ -32,15 +32,15 @@ const projects = [
     orders, tracking purchases, and enjoying a personalized shopping experience.`,
     tags: [["React", "JavaScript"], ["Tailwind"]],
     github: "https://github.com/MichaelEPC/ecommerce",
-    deploy: "https://ecommerce-tech-phi.vercel.app/",
+    deploy: "https://ecommerce-two-gamma-62.vercel.app/",
   },
 ];
 
 const TabletScreen = () => {
   return (
-    <div className="flex flex-col items-center h-auto w-full ">
+    <div className="flex h-auto w-full flex-col items-center">
       <div
-        className={`h-auto w-auto grid gap-8 grid-cols-1 md:gap-8 lg:gap-16 md:grid-cols-2 justify-center mt-10`}
+        className={`mt-10 grid h-auto w-auto grid-cols-1 justify-center gap-8 md:grid-cols-2 md:gap-8 lg:gap-16`}
       >
         {projects.map((project, i) => {
           if (projects.length === i + 1) return;
@@ -57,7 +57,7 @@ const TabletScreen = () => {
           );
         })}
       </div>
-      <div className={`h-auto w-full flex justify-center mt-8`}>
+      <div className={`mt-8 flex h-auto w-full justify-center`}>
         {projects.map((project, i) => {
           if (projects.length !== i + 1) return;
           return (
