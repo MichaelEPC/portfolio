@@ -8,12 +8,11 @@ import DownloadCV from "../../_Components/Dialog";
 
 const IntroductionSection = () => {
   return (
-    <section className={`${style.container} relative mb-10`}>
+    <section className={`${style.container} relative mb-44`}>
       <div className="z-50 flex h-[750px] w-full flex-col-reverse items-center justify-center lg:flex-row">
         <div className={`${style.titleIntro} px-2`}>
           <h1 className={`mt-10 text-5xl font-semibold text-principal-color`}>
-            <span className="text-text-color">¡</span>Michael Posada{" "}
-            <span className="text-text-color">Here!</span>
+            <span className="text-text-color"></span>Michael Posada Castañeda{" "}
           </h1>
           <h1 className="mt-2 text-4xl font-semibold text-text-color">
             Frotend <span className="text-text-color">Developer</span>
@@ -28,7 +27,9 @@ const IntroductionSection = () => {
           <div className="mt-1 flex h-auto w-full flex-col items-center mb:flex-row">
             <div className="mb-4 flex items-center mb:mb-0">
               <Link
-                href={"https://www.linkedin.com/in/michael-posada-36a57b316/"}
+                href={
+                  "https://www.linkedin.com/in/michael-posada-casta%C3%B1eda-36a57b316/"
+                }
                 target="_blank"
                 rel="noopener noreferrer"
               >

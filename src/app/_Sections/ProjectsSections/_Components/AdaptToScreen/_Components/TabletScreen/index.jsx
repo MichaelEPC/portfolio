@@ -12,7 +12,7 @@ const projects = [
     interface, thanks to TailwindCSS for design and Next.js for optimization and dynamic routing.`,
     tags: [["Next", "TypeScript"], ["Tailwind"]],
     github: "",
-    deploy: "https://admin-dashboard-zeta-flame.vercel.app/home",
+    deploy: "",
   },
   {
     id: 2,

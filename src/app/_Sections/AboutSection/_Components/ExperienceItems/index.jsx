@@ -15,7 +15,7 @@ const ExperienceItems = ({ name, tagName, time, description, img }) => {
         </svg>
       </span>
       <div className="liAnimated mb-1 mt-1 flex h-auto w-full flex-col-reverse items-center xl:mb-0 xl:mt-0 xl:flex-row">
-        <div className="2xl:border-r-2 border-0 border-gray-200 pr-2">
+        <div className="border-0 border-gray-200 pr-2 2xl:border-r-2">
           <h3 className="mb-1 flex items-center text-lg font-semibold text-gray-900">
             {name}
             <span className="me-2 ms-3 rounded border-2 border-slate-500 bg-white px-2.5 py-0.5 text-sm font-medium text-principal-color">
@@ -25,11 +25,11 @@ const ExperienceItems = ({ name, tagName, time, description, img }) => {
           <time className="mb-2 block text-sm font-normal leading-none text-gray-400">
             {time}
           </time>
-          <p className="hypermb:w-[400px] smde:w-[400px] premd:w-[600px] mb-4 h-auto w-[300px] text-base font-normal text-text-color md:w-[800px] dark:text-gray-400">
+          <p className="mb-4 h-auto w-[300px] text-base font-normal text-text-color hypermb:w-[400px] smde:w-[400px] premd:w-[600px] md:w-[800px] dark:text-gray-400">
             {description}
           </p>
         </div>
-        <div className="2xl:mb-0 mb-5 ml-4 flex items-center justify-center rounded-full border-2 border-ligh-gray p-1 shadow-lg">
+        <div className="mb-5 ml-4 flex items-center justify-center rounded-full border-2 border-ligh-gray p-1 shadow-lg 2xl:mb-0">
           <Image src={img} alt={img} className="h-auto w-44 rounded-full" />
         </div>
       </div>

@@ -6,23 +6,25 @@ const ContactMeSection = () => {
   return (
     <section
       id="contactSection"
-      className={`${style.mainContainer} ring-2 ring-slate-500 flex flex-col items-center`}
+      className={`${style.mainContainer} flex flex-col items-center ring-2 ring-principal-color`}
     >
-      <h2 className="font-bold text-5xl md:text-6xl mt-4 text-center">
+      <h2 className="mt-4 text-center text-5xl font-bold md:text-6xl">
         Contact
       </h2>
-      <div className="h-full w-full flex justify-center flex-col items-center">
-        <h3 className="font-semibold text-2xl md:text-3xl text-text-color text-center">
+      <div className="flex h-full w-full flex-col items-center justify-center">
+        <h3 className="text-center text-2xl font-semibold text-text-color md:text-3xl">
           ¿Want to work with me?{" "}
           <span className="text-principal-color">¡contact me!</span>
         </h3>
-        <div className="flex items-center justify-between h-auto w-96">
+        <div className="flex h-auto w-96 items-center justify-between">
           <Link
-            href={"https://www.linkedin.com/in/michael-posada-36a57b316/"}
+            href={
+              "https://www.linkedin.com/in/michael-posada-casta%C3%B1eda-36a57b316/"
+            }
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="cursor-pointer flex justify-center items-center border-2 border-principal-color rounded-lg">
+            <div className="flex cursor-pointer items-center justify-center rounded-lg border-2 border-principal-color">
               <svg
                 className="fill-text-color"
                 xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +37,7 @@ const ContactMeSection = () => {
             </div>
           </Link>
           <div className="flex items-center">
-            <div className="flex items-center p-2 mt-2 border-2 border-principal-color rounded-full">
+            <div className="mt-2 flex items-center rounded-full border-2 border-principal-color p-2">
               <svg
                 className="fill-text-color"
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +47,7 @@ const ContactMeSection = () => {
               >
                 <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path>
               </svg>
-              <p
-                className="ml-1 font-semibold text-principal-color
-              "
-              >
+              <p className="ml-1 font-semibold text-principal-color">
                 michaelposadadev@gmail.com
               </p>
             </div>

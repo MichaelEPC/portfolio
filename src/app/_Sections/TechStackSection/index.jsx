@@ -67,15 +67,15 @@ const listTechItems = [
 const TechStackSection = () => {
   return (
     <section
-      className={`${style.mainContainer} flex flex-col items-center mt-10 3xl:mt-0 mb-4`}
+      className={`${style.mainContainer} mb-4 mt-10 flex flex-col items-center 3xl:mt-0`}
     >
       <h3
-        className={`${style.titleAnimation} font-bold text-5xl hypermb:text-6xl text-center`}
+        className={`${style.titleAnimation} text-center text-5xl font-bold hypermb:text-6xl`}
       >
         Technologies stack
       </h3>
       <div
-        className={`grid grid-cols-2 hypermb:grid-cols-3 smde:grid-cols-5 gap-4 mt-10 ${style.titleAnimation}`}
+        className={`mt-10 grid grid-cols-2 gap-4 hypermb:grid-cols-3 smde:grid-cols-5 ${style.titleAnimation}`}
       >
         {listTechItems.map((item) => {
           return <TechItems key={item.id} name={item.name} img={item.img} />;
