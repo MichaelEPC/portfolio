@@ -11,7 +11,7 @@ const projects = [
     desc: `A financial dashboard web application that allows users to input income and cash outflows, track the number of investments, profits, and net gain. It also displays products sold by the company, revenue and number of sales per product, and monthly expenses. Designed for clear visualization and real-time business insights.`,
     tags: [["Next", "TypeScript"], ["Tailwind"]],
     github: "",
-    deploy: "https://admin-dashboard-zeta-flame.vercel.app/",
+    deploy: "https://admin-dashboard-zeta-flame.vercel.app/home",
   },
   {
     id: 2,
