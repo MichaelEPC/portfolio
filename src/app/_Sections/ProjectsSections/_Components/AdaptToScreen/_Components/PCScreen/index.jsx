@@ -6,10 +6,9 @@ import ecomerceProjectPht from "../../../../../../public/EcommerceScreen.png";
 const projects = [
   {
     id: 1,
-    name: "Admin Dashboard",
+    name: "Financial Dashboard Project",
     img: adminProjectPht,
-    desc: `Task manager using Next.js and TailwindCSS, where users can manage tasks for other users, report gains and losses, and generate detailed reports. This project enables efficient task management and tracking of financial outcomes, all within a modern, responsive 
-    interface, thanks to TailwindCSS for design and Next.js for optimization and dynamic routing.`,
+    desc: `A financial dashboard web application that allows users to input income and cash outflows, track the number of investments, profits, and net gain. It also displays products sold by the company, revenue and number of sales per product, and monthly expenses. Designed for clear visualization and real-time business insights.`,
     tags: [["Next", "TypeScript"], ["Tailwind"]],
     github: "",
     deploy: "",
