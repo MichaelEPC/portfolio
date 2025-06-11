@@ -15,7 +15,7 @@ const IntroductionSection = () => {
             <span className="text-text-color"></span>Michael Posada Castañeda{" "}
           </h1>
           <h1 className="mt-2 text-4xl font-semibold text-text-color">
-            Frotend <span className="text-text-color">Developer</span> Junior
+            Frontend <span className="text-text-color">Developer</span> Junior
           </h1>
           <div className="mt-2 border-t-2 border-principal-color">
             <p className="mt-1 h-auto w-auto text-lg text-text-color presm:w-[400px] premd:w-[700px]">
